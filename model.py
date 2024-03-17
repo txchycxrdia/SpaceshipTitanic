@@ -254,11 +254,9 @@ def predict():
 
 
 def send_request(url, dataset, command, save_path):
-    print('Начало функции')
     url.rstrip('/')
     if command == 'train' or command == 'predict':
         response = requests.post(url + '/' + command, files={'file': open(dataset, 'rb')})
-        print('Запрос отправлен, ответ получен')
     else:
         return 'Wrong command'
     if response.status_code == 200:
