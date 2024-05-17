@@ -1,5 +1,7 @@
 # Spaceship Titanic
 
+https://www.kaggle.com/competitions/spaceship-titanic
+
 Макаров Андрей 972203
 
 Модель можно обучить и использовать с помощью CLI
